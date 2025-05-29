@@ -50,7 +50,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener{
         contentPane.add(lblSistemaGestionUsuarios);
 
         JTextArea txtrEstaAplicacinPermite = new JTextArea();
-        txtrEstaAplicacinPermite.setText("Este aplicativo desea poder ayudar a llevar un control del imc de sus pacientes");
+        txtrEstaAplicacinPermite.setText("Este aplicativo desea poder ayudar a llevar un control del imc\n de diferentes usuarios, se solicita un registro para poder hacer un conteo\n de las personas que ingresaron al sistema.\n\n Por favor Ingrese una opcion para comenzar");
         txtrEstaAplicacinPermite.setColumns(5);
         txtrEstaAplicacinPermite.setBounds(21, 48, 410, 127);
         contentPane.add(txtrEstaAplicacinPermite);
